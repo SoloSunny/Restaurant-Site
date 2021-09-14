@@ -1,0 +1,111 @@
+<DOCTYPE html>
+<!--
+    Name: Solomon Kudus
+    Date Created: 09/12/2021
+    Most recent revision:
+-->
+<html lang="en">
+<head>
+  
+
+ <script type="text/JavaScript" src="restaurantStyles.js"></script>
+
+
+<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Contact Us</title>
+        <link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
+        <style>
+label.required {
+ color: rgb(79, 6, 173);
+ font-weight: bold;
+}
+
+</style>
+</head>
+
+<body>
+  <noscript>
+    <div class="awesome-fancy-styling">
+    JavaScript is Disabled. Please go to settings / the three dots at the right top corner and make Enabled it in order to go ahead. 
+ </div>
+</noscript>
+
+<header>
+  
+<h1>Pacific Restaurant</h1>
+</header>
+<nav>
+
+   
+  <a class="btn badge-pill"  href="3-Pacific-Restaurant-homepage.html"><img src="C:\Repos\Restaurant-Site\red.jpg" width="20" height="20">Home</a>
+  <a class="btn badge-pill"  href="2-Pacific-Restaurant-menu.html">Menu</a>
+  <a class="btn badge-pill"  href="2-Pacific-Restaurant-Contact-Us.html">Contact Us</a>
+  </nav>
+  
+  <hr />
+  <fieldset>
+  <center>
+  <h2><strong>Information Request</strong></h2>
+
+ <form Name="numberFun" onsubmit="return validateItems();" 
+          onreset="resetForm();" class="form-inline">
+
+Name:<label for="Name"></label>
+<input type="text" id="Name" name="Name" pattern="[A-Za-z]+"> <br /><br />
+Email:<label for="Email"></label>
+<input type="email" id="Email" name="Email"> <br /><br />
+Phone:<label for="Phone"></label>
+<input type="text" id="Phone" name="Phone"> <br /><br />
+Reason for inquiry:<label for="contact"></label>
+<select id="contact" name="contact">
+<option value="default" selected>Catering</option>
+<option value="morning">Private Party</option>
+<option value="afternoon">Feedback</option>
+<option value="evening">Other</option>
+</select>
+
+<p><label for="info">Additional Information:</label><br /></p>
+<textarea id="info" name="info" pattern="[A-Za-z]{500}"></textarea><br />
+<br />
+
+Have you been to the restaurant?
+<input type="radio" id="choice1" name="questionnaire" value="Yes">
+<label for="choice1">Yes</label>
+<input type="radio" id="choice2" name="questionnaire" value="No">
+<label for="choice2">No</label><br />
+
+
+Best day to contact you:
+<input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
+<label for="frontEnd">M</label>
+<input type="checkbox" id="backEnd" name="interest" value="backEnd">
+<label for="backEnd">T</label>
+<input type="checkbox" id="database" name="interest" value="database">
+<label for="database">W</label>
+<input type="checkbox" id="backEnd" name="interest" value="backEnd">
+<label for="backEnd">Th</label>
+<input type="checkbox" id="database" name="interest" value="database">
+<label for="database">F</label>
+<br /><br />
+
+<input type="submit" name="Send Request" value="Send Request">
+</fieldset>
+  </form>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+<footer>
+  1300 15Ave SW, Calgary, AB, T3K 0A9
+  <br>+1(403) 222-3344
+</center>
+  </footer>
+  
+  </body>
+  </html>
+  

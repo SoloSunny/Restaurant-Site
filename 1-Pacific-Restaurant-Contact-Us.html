@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+</head>
+<body>
+
+<header>
+<h1>
+<center><strong>Pacific Restaurant</strong></center>
+</h1>
+</header>
+<hr />
+
+<nav>
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="contact Us.html">Contact Us</a>
+</nav>
+<hr />
+
+<h2><strong>Information Request</strong></h2>
+
+<fieldset>
+<center>
+<body>
+<div class="content">
+
+<form action="submit.html" method="POST">
+Name: <input type="text" name="Name" /><br /><br>
+Email: <input type="text" name="Email" /><br /><br>
+Phone: <input type="text" name="Phone" /><br /><br>
+
+Reason for Inquiry: <select id="reason" name="reason">
+
+<option value="default" selected>--Select One--</option>
+<option value="catering">Catering</option>
+<option value="private">Private Party</option>
+<option value="feedback">Feedback</option>
+<option value="other">Other</option>
+</select>
+<br>
+<br>
+
+Additional Information:<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<div>
+<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+</textarea>
+</div>
+
+<br>
+Have you been in the restaurant?
+<input type="radio" id="choice1" name="questionnaire" value="yes">
+<label for="choice1">Yes</label>
+<input type="radio" id="choice2" name="questionnaire" value="no">
+<label for="choice2">No</label>
+<br>
+
+Best days to contact you:
+<input type="checkbox" id="m" name="interest" value="m">
+<label for="m">M</label>
+<input type="checkbox" id="t" name="interest" value="t">
+<label for="t">T</label>
+<input type="checkbox" id="w" name="interest" value="w">
+<label for="w">W</label>
+<input type="checkbox" id="th" name="interest" value="th">
+<label for="th">Th</label>
+<input type="checkbox" id="f" name="interest" value="f">
+<label for="f">F</label><br>
+
+<input type="submit" name="submit" value="Submit Request">
+</div>
+</fieldset>
+
+<hr />
+<footer>
+<center>1300 15Ave SW, Calgary, AB, T3K 0A9
+<br>+1(403) 222-3344</center>
+</footer>
+
+</body>
+</html>
+
+
